@@ -6,7 +6,8 @@
 # https://www.drupal.org/docs/develop/using-composer
 
 # Ignore configuration files that may contain sensitive information
-/web/sites/*/*settings*.php
+/web/sites/*/settings.local.php
+/web/sites/*/default.settings.php
 /web/sites/*/*services*.yml
 
 # Ignore paths that may contain user-generated content
@@ -60,3 +61,12 @@
 /drush
 /drupal.phar
 /drupal
+
+# IntelliJ / PhpStorm
+.idea/
+atlassian-ide-plugin.xml
+
+# env-file
+/.env*
+/.editorconfig
+/.gitattributes
