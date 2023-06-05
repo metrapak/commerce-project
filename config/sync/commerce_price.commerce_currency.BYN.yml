@@ -1,0 +1,9 @@
+uuid: 01396be1-0f1c-48af-ab51-4a2b34d06d02
+langcode: en
+status: true
+dependencies: {  }
+currencyCode: BYN
+name: 'Belarusian Ruble'
+numericCode: '933'
+symbol: BYN
+fractionDigits: 2
