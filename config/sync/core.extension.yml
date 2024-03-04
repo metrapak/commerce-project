@@ -14,6 +14,7 @@ module:
   commerce_checkout: 0
   commerce_number_pattern: 0
   commerce_order: 0
+  commerce_payment: 0
   commerce_price: 0
   commerce_product: 0
   commerce_store: 0
@@ -43,6 +44,7 @@ module:
   page_cache: 0
   path: 0
   path_alias: 0
+  phpass: 0
   profile: 0
   search: 0
   shortcut: 0
@@ -61,4 +63,5 @@ module:
 theme:
   olivero: 0
   claro: 0
+  belgrade: 0
 profile: standard

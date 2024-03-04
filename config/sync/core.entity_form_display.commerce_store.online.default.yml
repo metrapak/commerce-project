@@ -16,7 +16,8 @@ mode: default
 content:
   address:
     type: address_default
-    settings: {  }
+    settings:
+      wrapper_type: details
     weight: 4
     region: content
     third_party_settings: {  }
