@@ -1,0 +1,29 @@
+uuid: 9852da93-372a-4707-aa48-303731759394
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.simple
+    - field.storage.commerce_product_variation.field_images
+    - media.type.image
+id: commerce_product_variation.simple.field_images
+field_name: field_images
+entity_type: commerce_product_variation
+bundle: simple
+label: Images
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,14 @@
+uuid: dc29370e-caad-4c25-b459-5050efd55f48
+langcode: en
+status: true
+dependencies: {  }
+id: clothing
+label: Clothing
+traits: {  }
+locked: false
+description: ''
+variationType: clothing
+variationTypes:
+  - clothing
+multipleVariations: true
+injectVariationFields: false

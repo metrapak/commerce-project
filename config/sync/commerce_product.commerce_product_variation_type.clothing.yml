@@ -1,0 +1,10 @@
+uuid: da094a8b-b605-4206-b35f-209fec8e639b
+langcode: en
+status: true
+dependencies: {  }
+id: clothing
+label: Clothing
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: true

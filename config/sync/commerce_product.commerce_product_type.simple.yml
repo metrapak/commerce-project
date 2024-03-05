@@ -1,0 +1,14 @@
+uuid: d802fa35-ad09-4394-9249-4f986e2f4804
+langcode: en
+status: true
+dependencies: {  }
+id: simple
+label: Simple
+traits: {  }
+locked: false
+description: ''
+variationType: simple
+variationTypes:
+  - simple
+multipleVariations: false
+injectVariationFields: true
