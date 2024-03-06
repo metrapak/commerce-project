@@ -5,6 +5,7 @@ dependencies:
   config:
     - commerce_order.commerce_order_item_type.default
     - core.entity_form_mode.commerce_order_item.add_to_cart
+    - field.field.commerce_order_item.default.field_notes
   module:
     - commerce_product
   enforced:
@@ -18,16 +19,30 @@ targetEntityType: commerce_order_item
 bundle: default
 mode: add_to_cart
 content:
+  field_notes:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 10
+      placeholder: ''
+    third_party_settings: {  }
   purchased_entity:
     type: commerce_product_variation_attributes
     weight: 0
+    region: content
     settings: {  }
     third_party_settings: {  }
+  quantity:
+    type: number
+    weight: 1
     region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
 hidden:
   adjustments: true
   created: true
-  quantity: true
   status: true
   total_price: true
   uid: true

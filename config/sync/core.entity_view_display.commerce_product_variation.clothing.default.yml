@@ -1,4 +1,4 @@
-uuid: dc01e18d-1ed3-4964-af97-22332fe2308a
+uuid: 588070c5-108f-4f6d-8805-6fe4c2522383
 langcode: en
 status: true
 dependencies:
@@ -14,44 +14,40 @@ bundle: clothing
 mode: default
 content:
   attribute_color:
-    type: options_buttons
+    type: entity_reference_label
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
     weight: 2
     region: content
-    settings: {  }
-    third_party_settings: {  }
   attribute_size:
-    type: options_select
-    weight: 1
-    region: content
-    settings: {  }
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
     third_party_settings: {  }
+    weight: 3
+    region: content
   list_price:
-    type: commerce_list_price
-    weight: -1
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  price:
     type: commerce_price_default
+    label: above
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
     weight: 0
     region: content
-    settings: {  }
-    third_party_settings: {  }
-  sku:
-    type: string_textfield
-    weight: -4
-    region: content
+  price:
+    type: commerce_price_default
+    label: above
     settings:
-      size: 60
-      placeholder: ''
+      strip_trailing_zeroes: false
+      currency_display: code
     third_party_settings: {  }
-  status:
-    type: boolean_checkbox
-    weight: 90
+    weight: 1
     region: content
-    settings:
-      display_label: true
-    third_party_settings: {  }
 hidden:
-  created: true
-  uid: true
+  product_id: true
+  sku: true
+  title: true

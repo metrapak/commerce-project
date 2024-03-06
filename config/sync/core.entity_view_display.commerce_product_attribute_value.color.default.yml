@@ -13,11 +13,14 @@ bundle: color
 mode: default
 content:
   field_color:
-    type: color_field_formatter_text
+    type: color_field_formatter_swatch
     label: above
     settings:
-      format: hex
+      shape: parallelogram
+      width: '50'
+      height: '50'
       opacity: true
+      data_attribute: false
     third_party_settings: {  }
     weight: -4
     region: content

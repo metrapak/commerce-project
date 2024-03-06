@@ -11,4 +11,4 @@ variationType: clothing
 variationTypes:
   - clothing
 multipleVariations: true
-injectVariationFields: false
+injectVariationFields: true
