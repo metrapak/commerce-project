@@ -5,6 +5,7 @@ dependencies:
   config:
     - commerce_product.commerce_product_type.simple
     - field.field.commerce_product.simple.body
+    - field.field.commerce_product.simple.field_brand
   module:
     - commerce_product
     - text
@@ -19,6 +20,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 11
+    region: content
+  field_brand:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 12
     region: content
   title:
     type: string
