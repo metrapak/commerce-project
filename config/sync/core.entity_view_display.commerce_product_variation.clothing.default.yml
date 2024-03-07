@@ -15,21 +15,21 @@ mode: default
 content:
   attribute_color:
     type: entity_reference_label
-    label: above
-    settings:
-      link: false
-    third_party_settings: {  }
-    weight: 2
-    region: content
-  attribute_size:
-    type: entity_reference_label
-    label: above
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
-    weight: 3
+    weight: 1
     region: content
-  list_price:
+  attribute_size:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  price:
     type: commerce_price_default
     label: above
     settings:
@@ -38,16 +38,8 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  price:
-    type: commerce_price_default
-    label: above
-    settings:
-      strip_trailing_zeroes: false
-      currency_display: code
-    third_party_settings: {  }
-    weight: 1
-    region: content
 hidden:
+  list_price: true
   product_id: true
   sku: true
   title: true

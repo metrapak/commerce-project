@@ -9,7 +9,7 @@ _core:
 id: belgrade_local_tasks
 theme: belgrade
 region: content
-weight: -9
+weight: -6
 provider: null
 plugin: local_tasks_block
 settings:

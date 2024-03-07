@@ -19,14 +19,6 @@ targetEntityType: commerce_order_item
 bundle: default
 mode: add_to_cart
 content:
-  field_notes:
-    type: string_textfield
-    weight: 2
-    region: content
-    settings:
-      size: 10
-      placeholder: ''
-    third_party_settings: {  }
   purchased_entity:
     type: commerce_product_variation_attributes
     weight: 0
@@ -43,6 +35,7 @@ content:
 hidden:
   adjustments: true
   created: true
+  field_notes: true
   status: true
   total_price: true
   uid: true

@@ -1,0 +1,28 @@
+uuid: 8e70be50-1fd7-4257-8d5a-3e87f5da0043
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.product_search
+  module:
+    - system
+    - views
+  theme:
+    - belgrade
+id: belgrade_exposedformproduct_searchpage_1
+theme: belgrade
+region: content
+weight: -7
+provider: null
+plugin: 'views_exposed_filter_block:product_search-page_1'
+settings:
+  id: 'views_exposed_filter_block:product_search-page_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /products

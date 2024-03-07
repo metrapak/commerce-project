@@ -12,7 +12,7 @@ _core:
 id: belgrade_checkout_progress
 theme: belgrade
 region: content
-weight: -7
+weight: -3
 provider: null
 plugin: commerce_checkout_progress
 settings:
@@ -23,6 +23,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: '/checkout/*'
     negate: false
     context_mapping: {  }
+    pages: '/checkout/*'

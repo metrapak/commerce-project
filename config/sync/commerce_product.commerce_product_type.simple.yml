@@ -10,5 +10,5 @@ description: ''
 variationType: simple
 variationTypes:
   - simple
-multipleVariations: false
+multipleVariations: true
 injectVariationFields: true

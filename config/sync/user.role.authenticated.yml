@@ -14,7 +14,6 @@ dependencies:
     - file
     - filter
     - media
-    - search
     - shortcut
     - system
 _core:
@@ -32,7 +31,6 @@ permissions:
   - 'delete own files'
   - 'manage own commerce_payment_method'
   - 'post comments'
-  - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'
   - 'view commerce_product'

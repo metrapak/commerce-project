@@ -11,7 +11,7 @@ _core:
 id: belgrade_page_title
 theme: belgrade
 region: content
-weight: -10
+weight: -8
 provider: null
 plugin: page_title_block
 settings:
@@ -22,6 +22,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "<front>\r\n/product/*\r\n/products*\r\n"
     negate: true
     context_mapping: {  }
+    pages: "<front>\r\n/product/*\r\n/products*\r\n"

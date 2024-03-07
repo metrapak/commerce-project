@@ -1,0 +1,29 @@
+uuid: 8540f266-821b-4cd4-aa6d-cef7ef68b8a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.category
+  module:
+    - facets
+    - system
+  theme:
+    - belgrade
+id: belgrade_category
+theme: belgrade
+region: header
+weight: -7
+provider: null
+plugin: 'facet_block:category'
+settings:
+  id: 'facet_block:category'
+  label: Category
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: belgrade_category
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /products-catalog
